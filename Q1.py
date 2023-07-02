@@ -1,7 +1,7 @@
 import random
 
 # number of simulations
-n = 1000
+n = 1000000
 # number of flips in each simulation
 n_flips = 10
 # Keep track of "successes"
@@ -19,3 +19,6 @@ for i in range(2, n + 1):
         cnt = 0
 print("num_success:" + str(num_success))
 print("Estimated probability:" + str(num_success / n))
+
+
+# E[x] = 0.002
