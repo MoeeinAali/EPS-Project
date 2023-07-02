@@ -18,4 +18,4 @@ for i in range(2, n + 1):
     else:
         cnt = 0
 print("num_success:   " + str(num_success))
-print("num_success per n:   " + str(num_success / n))
+print("num_success per n:" + str(num_success / n))
