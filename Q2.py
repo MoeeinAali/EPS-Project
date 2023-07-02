@@ -14,8 +14,7 @@ def select_three_random_numbers():
 
 for i in range(1, n + 1):
     random_numbers = select_three_random_numbers()
-    if abs(random_numbers[0] - random_numbers[1]) < random_numbers[2] and random_numbers[2] > random_numbers[0] + \
-            random_numbers[1]:
+    if abs(random_numbers[0] - random_numbers[1]) < random_numbers[2] and random_numbers[2] > random_numbers[0] + random_numbers[1]:
         num_success = num_success + 1
 
 # Estimated probability
