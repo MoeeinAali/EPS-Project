@@ -38,7 +38,7 @@ plt.plot(x, dist_a.pdf(x), label='a')
 plt.plot(x, dist_b.pdf(x), label='b')
 plt.plot(x, dist_c.pdf(x), label='c')
 
-# نمونه‌ها را نمایش میدهد
+# نمونه ها را نمایش میدهد
 plt.hist(sample_a, density=True, alpha=0.5)
 plt.hist(sample_b, density=True, alpha=0.5)
 plt.hist(sample_c, density=True, alpha=0.5)
