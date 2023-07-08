@@ -32,13 +32,11 @@ sample_a = dist_a.rvs(size=len(a))
 sample_b = dist_b.rvs(size=len(b))
 sample_c = dist_b.rvs(size=len(c))
 
-# نمودار چگالی برای هر بردار
 x = np.linspace(0, 1, 1000)
 plt.plot(x, dist_a.pdf(x), label='a')
 plt.plot(x, dist_b.pdf(x), label='b')
 plt.plot(x, dist_c.pdf(x), label='c')
 
-# نمونه ها را نمایش میدهد
 plt.hist(sample_a, density=True, alpha=0.5)
 plt.hist(sample_b, density=True, alpha=0.5)
 plt.hist(sample_c, density=True, alpha=0.5)
