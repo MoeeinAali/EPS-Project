@@ -1,7 +1,7 @@
 import random
 
 # Number of simulation
-n = 100000
+n = 1000
 # Range
 m = 13
 # Keep track of "successes"
@@ -26,5 +26,3 @@ file.write("\n\nnum_success:" + str(num_success)+"\n")
 print("\n\nnum_success:" + str(num_success))
 file.write("Estimated probability:" + str(num_success / n))
 print("Estimated probability:" + str(num_success / n))
-
-# E[x] = 0.45
