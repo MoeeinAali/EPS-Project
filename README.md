@@ -1,3 +1,4 @@
-# Moeein Aali
-### EPS-Project
-### Student Number : 401105561
+# Engineering Probability and Statistics 
+## Sharif University of Technology - Spring2023
+### Name: Moeein Aali
+### Student Number: 401105561
